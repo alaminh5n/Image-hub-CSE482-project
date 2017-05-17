@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forgot Password</title>
+        <link rel="stylesheet" rel="text" href="Css/Forgot.css">
+        <script>
+            function msg(){
+                var x=document.getElementById("mail").value;
+                if(x==""){
+                document.getElementById("p2").style= "display:none;";
+                document.getElementById("p1").style= "display:inline;";
+                }
+                else{
+                document.getElementById("p1").style= "display:none;";
+                document.getElementById("p2").style= "display:inline;";
+            }
+            }
+            
+        </script>
+    </head>
+    <body background="b.jpg">
+        <div class="fp">
+            <div id="d1"><a href="SignIn.html"><img src="Image/back-button.png" height="100%" width="100%"></a></div>
+            <div id="d2"><h3>Find Your Account</h3></div>
+            <p>Enter Valid Email</p>
+            <form>
+            <input type="email" name="mail" id="mail">
+            <button type="button" onclick="msg()">Confirm</button>
+            </form>
+            <p id="p1">Enter email Address</p>
+            <p id="p2">Recovery mail sent to your Address</p>
+        </div>
+    </body>
+</html>

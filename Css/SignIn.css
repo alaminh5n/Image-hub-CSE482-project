@@ -1,0 +1,63 @@
+.login{
+    border-radius: 5px;
+    background-color:transparent;
+    padding: 20px;
+    width: 25%;
+    margin-left: 35%;
+    margin-top: 5%;
+    box-shadow: 0 0 50px black;
+}
+lebel{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #4CAF50;
+    
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    color:chartreuse;
+    text-shadow: 0px 0px 30px green;
+}
+#im1{
+    margin-left: 20%;
+}
+#forgot{
+    text-decoration: none;
+    float: right;
+    color: black;
+    font-family:cursive;
+    font-size: 15px;
+}
+#createnew{
+    text-decoration: none;
+    float: left;
+    font-family:cursive;
+    font-size: 15px;
+    color: black;
+}
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family:cursive;
+    font-size: 15px;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}

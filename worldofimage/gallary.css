@@ -1,0 +1,52 @@
+@charset 'utf-8';
+
+
+
+
+#closeButton{
+
+	position: absolute;
+	top: 0px;
+	right: 0px;
+
+}
+
+img#closeButton:hover{
+	cursor:pointer; 
+}
+
+#left{
+
+	position: absolute;
+	top: 50%;
+	left: 0;
+	cursor:pointer;
+}
+
+#right{
+
+	position: absolute;
+	top: 50%;
+	right: 0;
+	cursor:pointer;
+}
+
+#gallery{
+
+	float: left;
+
+}
+
+#gallery img{
+
+	padding: 2%;
+}
+
+#imageFrame{
+
+	position: absolute;
+	left: 7.5%;
+	top:7.5%;
+	width: 90%;
+	height: 90%;
+}

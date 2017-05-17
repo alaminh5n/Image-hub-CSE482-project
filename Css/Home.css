@@ -1,0 +1,43 @@
+h1{
+    font-family:monospace;
+    font-weight: bold;
+    color:cornsilk;
+    font-size: 30px;
+}
+
+p{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    color:chartreuse;
+    font-size: 40px;
+    text-shadow: 0px 0px 30px green;
+}
+#l{
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+#a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#a1{
+    text-decoration: none;
+    color: aliceblue;
+}
+li{  
+    list-style: none;
+    display:inline-block;
+    border-top-left-radius: 30px;
+    padding: 20px 50px 20px 50px;
+    font-family: cursive;
+    box-shadow: 0 0 50px black;
+}
+#a:hover{
+    font-size: 30px;
+}
+li:hover{
+    box-shadow: 0 0 50px white;
+}
